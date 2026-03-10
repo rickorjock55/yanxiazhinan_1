@@ -37,8 +37,11 @@
 3.  打开 Cherry Studio，测试连通性
 
 #### 第 4 步：部署 OpenClaw
-1.  运行 `install.bat`（Windows）或 `install.sh`（Linux/Mac）
-2.  选择部署模式（脚本/Docker/npm），等待完成
+1.  运行对应脚本：
+    - **脚本模式**：`install.bat`（Windows）/ `install.sh`（Linux/Mac）
+    - **Docker 模式**：`install_docker.bat`（Windows）/ `install_docker.sh`（Linux/Mac）
+    - **npm 模式**：`install_npm.bat`（Windows）/ `install_npm.sh`（Linux/Mac）
+2.  选择部署模式，等待完成
 3.  将 OpenClaw 对接 Cherry Studio 接口
 
 #### 第 5 步：养虾成功！
