@@ -1,0 +1,23 @@
+# OpenClaw 养虾一键脚本（示例框架）
+echo "=== 欢迎使用 OpenClaw 养虾一键部署脚本 ==="
+echo "请选择部署模式："
+echo "1. 一键脚本模式（最简单）"
+echo "2. Docker 模式"
+echo "3. npm 模式"
+read -p "输入选项(1/2/3): " mode
+
+if [ $mode -eq 1 ]; then
+  echo "正在执行一键脚本部署..."
+  # 这里放从 CSDN 提取的一键脚本代码
+  curl -sSL https://xxx | bash
+  echo "部署完成！请按提示配置中文界面"
+elif [ $mode -eq 2 ]; then
+  echo "正在执行 Docker 部署..."
+  # Docker 相关命令
+  docker run -d ...
+elif [ $mode -eq 3 ]; then
+  echo "正在执行 npm 部署..."
+  npm install ...
+fi
+
+echo "=== 养虾提示：不保证虾能养活，但流程已跑通 ==="
